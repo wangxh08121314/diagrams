@@ -1,67 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T02:25:34.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JQlDdXaLHt_8-MVepCo_" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T03:32:06.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="gW_NlNgNyu2XDPx_6XlN" version="20.3.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="微信小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="143" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="小程序后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="220" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="323" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="205" as="targetPoint" />
+            <mxPoint x="298" y="205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="280" />
+              <mxPoint x="303" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="235" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="230" />
-            </Array>
-            <mxPoint x="100" y="230" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-1" value="企业微信接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="390" y="40" width="100" height="300" as="geometry" />
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-1" value="online-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="493" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="UjmmcWTGSM0Nlgv9XqiH-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="UjmmcWTGSM0Nlgv9XqiH-1">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UjmmcWTGSM0Nlgv9XqiH-3" value="获取客服二维码链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="120" height="40" as="geometry" />
+          <mxGeometry x="223" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UjmmcWTGSM0Nlgv9XqiH-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="310" as="sourcePoint" />
-            <mxPoint x="450" y="260" as="targetPoint" />
+            <mxPoint x="503" y="310" as="sourcePoint" />
+            <mxPoint x="553" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="150" />
+              <mxPoint x="293" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UjmmcWTGSM0Nlgv9XqiH-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="UjmmcWTGSM0Nlgv9XqiH-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="310" as="sourcePoint" />
-            <mxPoint x="450" y="260" as="targetPoint" />
+            <mxPoint x="503" y="310" as="sourcePoint" />
+            <mxPoint x="553" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="150" />
+              <mxPoint x="463" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="100" width="130" height="40" as="geometry" />
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-9" value="获取客服二维码链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="393" y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-10" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica, PingFang SC, SCHeiti, Microsoft YaHei, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;rgba(14, 19, 26, 0.8)&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;外部接口如下：&lt;br&gt;&lt;br&gt;企微接口获取企业已配置的「联系我」方式接口：&lt;br&gt;https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_contact_way?access_token=ACCESS_TOKEN&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; text-align: center;&quot;&gt;企微接口获取客户详情&lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica, PingFang SC, SCHeiti, Microsoft YaHei, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;rgba(14, 19, 26, 0.8)&quot;&gt;接口：&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; color: rgba(14, 19, 26, 0.8); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, Helvetica, &amp;quot;PingFang SC&amp;quot;, SCHeiti, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get?access_token=ACCESS_TOKEN&amp;amp;external_userid=EXTERNAL_USERID&amp;amp;cursor=CURSOR&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica, PingFang SC, SCHeiti, Microsoft YaHei, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot;&gt;&lt;font color=&quot;rgba(14, 19, 26, 0.8)&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;腾讯广告归因接口：&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000060&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;https://api.e.qq.com/v1.1/user_actions/add&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBorderColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="730" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="UjmmcWTGSM0Nlgv9XqiH-1">
+          <mxGeometry x="-0.0028" y="-10" relative="1" as="geometry">
+            <mxPoint x="373" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="180" />
+            </Array>
+            <mxPoint x="378" y="290" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-12" value="返回qr_code" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403" y="180" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-13" value="返回qr_code" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="233" y="180" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="UjmmcWTGSM0Nlgv9XqiH-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="sourcePoint" />
+            <mxPoint x="633" y="240" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-16" value="添加客服企业微信成功后，企业微信平台回调，返回external_userid" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="563" y="270" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-18" value="腾讯广告平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="UjmmcWTGSM0Nlgv9XqiH-18">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-20" value="调用企业微信接口&lt;br&gt;获取企业已配置的「联系我」方式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="563" y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708" y="260" as="sourcePoint" />
+            <mxPoint x="548" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="643" y="260" />
+              <mxPoint x="603" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0028" y="-10" relative="1" as="geometry">
+            <mxPoint x="543.25" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="583.25" y="180" />
+            </Array>
+            <mxPoint x="712.75" y="180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-25" value="根据external_userid调用微信接口获取客户详情,返回unionid,follow_user.state" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-27" value="企业微信平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="673" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="UjmmcWTGSM0Nlgv9XqiH-27">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="UjmmcWTGSM0Nlgv9XqiH-2" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="270" as="sourcePoint" />
+            <mxPoint x="388" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="150" as="sourcePoint" />
+            <mxPoint x="720" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjmmcWTGSM0Nlgv9XqiH-31" value="调用腾讯广告归因接口归因" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="208" y="270" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
